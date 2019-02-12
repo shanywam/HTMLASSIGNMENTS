@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> tableform</title>
+</head>
+<body>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+ 
+}
+</style>
+</head>
+<body>
+
+<h2>FORM</h2>
+
+<table>
+  
+  <tr>
+    <td>Contact person phone number</td>
+    <td><input type="int" placeholder="contact_person_phone_number"</td>
+    </tr>
+    <tr>
+  
+  
+    <td>Site name/estate</td>
+    <td><input type="text" placeholder ="site name/estate"> </td>
+    </tr>
+    <tr>
+    <td>House number</td>
+    <td><input type="int" placeholder="house number"/required></td>
+    </tr>
+    <tr>
+    <td>Date reported</td>
+    <td><input type="date" placeholder="date reported"></td>
+    </tr>
+  
+  <tr>
+    <td>Sheduled time</td>
+    <td><input type="time" placeholder="sheduled time"></td>
+    </tr>
+    
+    <tr>
+      <td>
+        <center>
+    <div>
+          <form>
+          <input type ="radio" name ="subject" value ="yes">yes
+          <input type ="radio" name ="subject" value ="no">no
+          <form/>
+        <div>
+    </center>
+      </td>
+    </tr>
+ <tr>
+    <td>Assign to</td>
+    <td><input type="text" placeholder="assign to">
+  </td>
+  </tr>
+  <tr>
+    <td>Attachement(optional)</td>
+    <td><input type="file" placeholder="attachement(optional)">
+  </td>
+  </tr>
+    
+  
+</table>
+<input type="submit" value="save">
+</body>
+</html>
